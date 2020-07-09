@@ -1,0 +1,183 @@
+.add-movie-btn {
+    float: right;
+    padding: 0.3em 1em;
+    margin-right: 15em;
+    box-sizing: none;
+    border-radius: 0.3em;
+    background-color: #424242;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    transition: all 0.1s;
+    cursor: pointer;
+    opacity: 0.7;
+    height: 3.3em;
+    width: 12em;
+}
+
+.search {
+    display: inline-block;
+    padding-top: 15em;
+    padding-left: 8em;
+    height: 7em;
+}
+
+.search-input {
+    display: inline-block;
+    min-width: max-content;
+    width: 40em;
+    margin: 2em;
+    border-radius: 0.3rem;
+    height: 3em;
+}
+
+.search-btn {
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    margin: 2em;
+    border-radius: 0.3rem;
+    box-sizing: none;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    color: white;
+    background: #f65261;
+    text-align: center;
+    transition: all 0.1s;
+    cursor: pointer;
+    height: 3.3em;
+    width: 12em;
+}
+
+.search-btn:hover {
+    background-color: tomato;
+}
+
+@media all and (max-width:30rem){
+.search-btn {
+    display: block;
+    margin: 0.2rem auto;
+    }
+}
+
+body {
+    background-color: #555555;
+
+}
+
+main {
+    background-color: #232323;
+    width: 88%;
+    height: 125em;
+    margin-top: 1em;
+    margin-left: 0.2em;
+    padding-right: 14em;
+}
+
+header {
+    background-image: url(/static/media/wallpaper.46e479b2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 2em;
+    padding-left: 14em;
+    padding-right: 3em;
+    padding-bottom: 9em;
+    margin-top: 1em;
+    margin-left: 0.3em;
+    margin-bottom: 1em;
+    opacity: 0.5;
+}
+
+.no-content {
+    padding-top: 9em;
+    padding-left: 10em;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: full-width;
+    font-size: 30px;
+}
+
+.filter {
+    background-color: #232323;
+    width: 88%;
+    height: 3em;
+    margin-top: 1em;
+    margin-left: 0.2em;
+    padding-right: 14em;
+}
+
+.filter-btn {
+    float: left;
+    text-align: revert;
+    text-decoration: whitesmoke;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    height: 3.3em;
+    width: 8em;
+    margin: 0.3em;
+    cursor: pointer;
+    background-color: #232323;
+    border: none;
+    color: whitesmoke;
+}
+
+.sort-selector {
+    float: right;
+    text-align: revert;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    height: 1.2em;
+    width: 9em;
+    cursor: pointer;
+    background-color: #232323;
+    border: none;
+    margin-left: 45em;
+    margin-top: -1em;
+    margin-right: -7em;
+    color: whitesmoke;
+}
+
+.sort-by {
+    float: right;
+    text-align: revert;
+    text-decoration: whitesmoke;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    height: 1em;
+    width: 9em;
+    color: whitesmoke;
+    margin-top: 1em;
+    margin-left: 40em;
+    font-size: 15px;
+}
+
+footer{
+    background-color: #424242;
+    width: 88%;
+    height: 6em;
+    margin-top: 1em;
+    margin-left: 0.2em;
+    padding-right: 14em;
+}
+
+.footer-content {
+    padding-top: 1em;
+    padding-left: 10em;
+    text-align: center;
+    text-decoration: none;
+    color: #F65261;
+    text-transform: full-width;
+    font-size: 30px;
+    font-weight: bold;  
+}
+
+.title-modul {
+    color: #F65261;
+    text-transform: full-width;
+    font-size: 30px;
+    text-align: start;
+    font-weight: bold;    
+}
