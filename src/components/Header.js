@@ -7,7 +7,7 @@ class Header extends Component {
     render() {
     return ( 
         <header>
-            <TitleComponent text={"FAKEFLIX"}/>
+            <TitleComponent text={"NOTFLIX"}/>
             <AddMovie text={"+ ADD MOVIE"}/>
             <Search text={"What do you want to watch?"}/>
         </header> 

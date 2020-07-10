@@ -8,22 +8,22 @@ function MainContent() {
         {src: 'images/hundstage.jpg', title: 'Hudnstage', release: '1999', type: 'comedy'},
         {src: 'images/lockstock.jpg', title: 'Lock stock and two smoking barrels', release: '1998', type: 'crime'},
         {src: 'images/snatch.jpg', title: 'Snatch', release: '2001', type: 'comedy'},
+        {src: 'images/psycho.jpg', title: 'Psycho', release: '1960', type: 'horror'},
         {src: 'images/pulp_fiction.jpg', title: 'Pulp Fiction', release: '1994', type: 'crime'},
         {src: 'images/hundstage.jpg', title: 'Hudnstage', release: '1999', type: 'comedy'},
         {src: 'images/lockstock.jpg', title: 'Lock stock and two smoking barrels', release: '1998', type: 'crime'},
         {src: 'images/snatch.jpg', title: 'Snatch', release: '2001', type: 'comedy'},
+        {src: 'images/psycho.jpg', title: 'Psycho', release: '1960', type: 'horror'},
         {src: 'images/pulp_fiction.jpg', title: 'Pulp Fiction', release: '1994', type: 'crime'},
         {src: 'images/hundstage.jpg', title: 'Hudnstage', release: '1999', type: 'comedy'},
         {src: 'images/lockstock.jpg', title: 'Lock stock and two smoking barrels', release: '1998', type: 'crime'},
         {src: 'images/snatch.jpg', title: 'Snatch', release: '2001', type: 'comedy'},
+        {src: 'images/psycho.jpg', title: 'Psycho', release: '1960', type: 'horror'},
         {src: 'images/pulp_fiction.jpg', title: 'Pulp Fiction', release: '1994', type: 'crime'},
         {src: 'images/hundstage.jpg', title: 'Hudnstage', release: '1999', type: 'comedy'},
         {src: 'images/lockstock.jpg', title: 'Lock stock and two smoking barrels', release: '1998', type: 'crime'},
         {src: 'images/snatch.jpg', title: 'Snatch', release: '2001', type: 'comedy'},
-        {src: 'images/pulp_fiction.jpg', title: 'Pulp Fiction', release: '1994', type: 'crime'},
-        {src: 'images/hundstage.jpg', title: 'Hudnstage', release: '1999', type: 'comedy'},
-        {src: 'images/lockstock.jpg', title: 'Lock stock and two smoking barrels', release: '1998', type: 'crime'},
-        {src: 'images/snatch.jpg', title: 'Snatch', release: '2001', type: 'comedy'},
+        {src: 'images/psycho.jpg', title: 'Psycho', release: '1960', type: 'horror'}
     ]);
 
     

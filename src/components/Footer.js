@@ -5,7 +5,7 @@ class Footer extends Component {
     render() {
     return( 
     <footer>
-        <Footercontent text={"FAKEFLIX"}/>
+        <Footercontent text={"NOTFLIX"}/>
     </footer>
     );}
 }
