@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Footercontent from './footercomponents/FooterContent'
 
-class Footer extends Component {
-    render() {
+function Footer(props) {
     return( 
-    <footer>
-        <Footercontent text={"NOTFLIX"}/>
-    </footer>
-    );}
+        <footer>
+            <Footercontent />
+        </footer>
+    );
 }
 
 export default Footer;

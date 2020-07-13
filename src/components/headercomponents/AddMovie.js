@@ -1,13 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Button from '../Button';
 
-class AddMovie extends Component {
-    render() {
+function AddMovie(props) {
         return(
-        <div>
-            <button className="add-movie-btn">{this.props.text}</button>
-        </div>
+            <Button cssStyle="add-movie-btn" onClick={props.onClick} label="+ ADD MOVIE"/>
         );
-    }
 }
 
 export default AddMovie;

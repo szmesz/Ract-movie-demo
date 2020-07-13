@@ -1,21 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ResultSorter from './ResultSorter'
+import Button from "../Button"
 
-class ResultsFilter extends Component {
-    render() {
+function ResultsFilter(props) {
         return(
             <nav>
                 <div className="filter">
-                    <button className="filter-btn">ALL</button> 
-                    <button className="filter-btn">DOCUMENTARY</button> 
-                    <button className="filter-btn">COMEDY</button> 
-                    <button className="filter-btn">HORROR</button> 
-                    <button className="filter-btn">CRIME</button> 
+                    <Button cssStyle="filter-btn" label="ALL"></Button>
+                    <Button cssStyle="filter-btn" label="DOCUMENTARY"></Button>
+                    <Button cssStyle="filter-btn" label="COMEDY"></Button>
+                    <Button cssStyle="filter-btn" label="HORROR"></Button>
+                    <Button cssStyle="filter-btn" label="CRIME"></Button>
                     <ResultSorter />
                 </div>
             </nav>
         );
-    }
+    
 }
 
 export default ResultsFilter;

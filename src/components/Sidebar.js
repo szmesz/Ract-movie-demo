@@ -1,13 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 import ResultsFilter from './sidebarcomponents/ResultsFilter';
 
-class Sidebar extends Component {
-    render() {
+function Sidebar(props) {
     return(
-    <aside>
-        <ResultsFilter />
-    </aside>
-    );}
+        <aside>
+            <ResultsFilter />
+        </aside>
+    );
 }
 
 export default Sidebar;

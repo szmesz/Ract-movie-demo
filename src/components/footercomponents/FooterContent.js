@@ -1,10 +1,12 @@
-import React, {Component} from 'react';
+import React from 'react';
+import Title from "../Title";
 
-class FooterContent extends Component {
-    render() {
-        return(
-        <div className="footer-content">{this.props.text}</div>
-        );}
+function FooterContent(props) {
+    return(
+        <div className="footer-content">
+            <Title />
+        </div>
+    );
 }
 
 export default FooterContent;

@@ -1,19 +1,17 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types';
 
-class Movie extends Component {
-render() {
+function Movie(props) {
     return ( 
         <div className="movie">
-            <img src={this.props.src}  alt="" width="280" height="370" />
+            <img src={props.src}  alt="" className="poster" />
             <div className="info-box">
-                <label className="info">| TITLE: {this.props.title} |</label>
-                <label className="info">| RELEASE DATE: {this.props.release} |</label>
-                <label className="info">| GENRE: {this.props.type} |</label>
+                <label className="info">| TITLE: {props.title} |</label>
+                <label className="info">| RELEASE DATE: {props.release} |</label>
+                <label className="info">| GENRE: {props.type} |</label>
             </div>
         </div>
     );
-}
 }
 
 Movie.propTypes = {

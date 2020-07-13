@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Button from '../Button';
 
-class Search extends Component {
-    render() {
+function Search(props) {
         return(
             <div>
                 <div className="search">
-                    <input className="search-input" placeholder={this.props.text}></input>
-                    <button className="search-btn">SEARCH</button>
+                    <input className="search-input" placeholder="What do you want to watch?" ></input>
+                    <Button cssStyle="search-btn" onclick={props.onclick} label="SEARCH"></Button>
                 </div>
             </div>
         );
-    }
+    
 }
 
 export default Search;
