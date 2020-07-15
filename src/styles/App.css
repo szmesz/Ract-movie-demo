@@ -233,3 +233,45 @@ footer{
       flex-direction: row;
     }
 }
+
+.edit-movie-btn {
+    background-color: #424242;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    color: whitesmoke;
+    justify-content: center;
+    margin: 0.2em;
+    border: black;
+}
+
+.movie-edit-panel {
+    justify-content: center;
+}
+
+.add-movie-panel{
+    height: 28em;
+    width: 80em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 10em;
+    background-color:  #424242;
+    color: whitesmoke;
+    padding-right: 3em;
+    margin: auto;
+}
+
+.submit-btn, .close-btn {
+    font-size: 12px;
+    justify-content: center;
+    margin: 0.2em;
+    border: black;
+    cursor: pointer;
+    background-color: #424242;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 1000;
+    color:#F65261;
+    text-align: center;
+    margin: auto;
+}
