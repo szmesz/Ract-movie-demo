@@ -11,11 +11,11 @@ function AddMovie(props) {
         return(
             <div>
                 <Button cssStyle="add-movie-btn" onClick={() => setOpen(true)} label="+ ADD MOVIE"/>
-                <Modal isOpen={open} onRequestClose={() => setOpen(false)}>
-                        <div className="add-movie-panel">
-                            <MovieForm /> 
-                            <Button cssStyle="close-btn" onClick={() => setOpen(false)} label="CLOSE"></Button>
-                        </div>
+                <Modal className="modal" isOpen={open} onRequestClose={() => setOpen(false)}>
+                    <Button cssStyle="close-btn" onClick={() => setOpen(false)} label="CLOSE"></Button>
+                    <div className="add-movie-panel">
+                        <MovieForm /> 
+                    </div>
                 </Modal>
             </div>
         );
