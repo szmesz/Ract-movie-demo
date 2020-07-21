@@ -247,9 +247,10 @@ footer{
 
 .movie-edit-panel {
     justify-content: center;
+    width: 7em;
 }
 
-.add-movie-panel {
+.movie-form {
     height: 28em;
     width: 80em;
     display: flex;
