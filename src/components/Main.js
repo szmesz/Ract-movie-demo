@@ -6,7 +6,7 @@ function Main(props) {
     return( 
         <main>
             <Sidebar />
-            <MainContent />
+            <MainContent {...props}></MainContent>
         </main>
     );
 }
