@@ -5,11 +5,11 @@ import Main from './Main';
 
 import '../styles/App.css';
 
-function App() {
+function App(props) {
   return (
     <>
-      <Header />
-      <Main />
+      <Header {...props}/>
+      <Main {...props}/>
       <Footer />
     </>
   );
